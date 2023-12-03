@@ -1,1 +1,4 @@
-
+spring.instance.prefer-ip-address=true
+spring.client.fetch-registry=true
+spring.client.register-with-eureka=true
+spring.client.service-url.defaultZone=http://localhost:8671/eureka
